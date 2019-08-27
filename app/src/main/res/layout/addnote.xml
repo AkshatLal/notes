@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#a4b8cc">
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editText1" android:hint="Heading">
+    </EditText>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editText2" android:inputType="textMultiLine" android:layout_weight="1" android:hint="Note" android:gravity="top"></EditText>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:background="#535352" android:gravity="center|bottom" android:layout_gravity="bottom" android:layout_weight="0">
+        <Button android:text="Save" android:textColor="#535352" android:textSize="30sp" android:layout_height="wrap_content" android:id="@+id/button1" android:layout_width="wrap_content"></Button>
+   </LinearLayout>
+</LinearLayout>
